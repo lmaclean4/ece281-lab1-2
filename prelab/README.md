@@ -5,11 +5,27 @@
 ### Truth Table
 
 Insert your truth table here
-
+| n/a | 0 | 0 | 0 | 0 | X |
+|-----|---|---|---|---|---|
+| Jan | 0 | 0 | 0 | 1 | 1 |
+| Feb | 0 | 0 | 1 | 0 | 0 |
+| Mar | 0 | 0 | 1 | 1 | 1 |
+| Apr | 0 | 1 | 0 | 0 | 0 |
+| May | 0 | 1 | 0 | 1 | 1 |
+| Jun | 0 | 1 | 1 | 0 | 0 |
+| Jul | 0 | 1 | 1 | 1 | 1 |
+| Aug | 1 | 0 | 0 | 0 | 1 |
+| Sep | 1 | 0 | 0 | 1 | 0 |
+| Oct | 1 | 0 | 1 | 0 | 1 |
+| Nov | 1 | 0 | 1 | 1 | 0 |
+| Dec | 1 | 1 | 0 | 0 | 1 |
+| n/a | 1 | 1 | 0 | 1 | X |
+| n/a | 1 | 1 | 1 | 0 | X |
+| n/a | 1 | 1 | 1 | 1 | X |
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A'D + AD'
 $$
 
 ### Digital Simulations
