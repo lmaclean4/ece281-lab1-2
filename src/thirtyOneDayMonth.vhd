@@ -62,7 +62,7 @@ entity thirtyOneDayMonth is
 	
 	
 	
-    o_Y : std_logic				-- output
+    o_Y : out std_logic				-- output
   );
 end thirtyOneDayMonth;
 
@@ -78,7 +78,7 @@ begin
 	w_sel(1) <= i_B;
 	w_sel(2) <= i_A;
 	--finish assigning signals
-	
+	o_Y <= (not i_A and i_D) or (i_A and not i_D);
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
 	---------------------------------------------------------------	
 end thirtyOneDayMonth_arch;
